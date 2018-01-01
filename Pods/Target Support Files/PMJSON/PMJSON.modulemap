@@ -1,0 +1,6 @@
+framework module PMJSON {
+  umbrella header "PMJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}

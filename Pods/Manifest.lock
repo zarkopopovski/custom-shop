@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.6.0)
+  - DPDropDownMenu (0.4.0)
+  - GTToast (0.3.0)
+  - PMJSON (2.0.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.2)
+  - TPKeyboardAvoiding (1.3.2)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2)
+  - DPDropDownMenu
+  - GTToast
+  - PMJSON (~> 2.0)
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD (~> 2.0)
+  - TPKeyboardAvoiding (~> 1.3)
+  - UIColor_Hex_Swift (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  DPDropDownMenu: 2230482ed6d33fd5b8863cab916cbcdd9414a772
+  GTToast: 5c5fa8fb35091f73be09d8c5a99bbf723a081263
+  PMJSON: b3ebd15f72b8c67a0168f868140c140575885567
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: d854883682b46ef95838a874a88377f2844e1a9b
+
+COCOAPODS: 1.3.1

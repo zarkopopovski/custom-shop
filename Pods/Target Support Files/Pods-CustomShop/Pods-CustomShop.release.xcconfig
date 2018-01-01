@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire" "$PODS_CONFIGURATION_BUILD_DIR/DPDropDownMenu" "$PODS_CONFIGURATION_BUILD_DIR/GTToast" "$PODS_CONFIGURATION_BUILD_DIR/PMJSON" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding" "$PODS_CONFIGURATION_BUILD_DIR/UIColor_Hex_Swift"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/DPDropDownMenu/DPDropDownMenu.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/GTToast/GTToast.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PMJSON/PMJSON.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD/SVProgressHUD.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding/TPKeyboardAvoiding.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UIColor_Hex_Swift/UIColor_Hex_Swift.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "DPDropDownMenu" -framework "GTToast" -framework "PMJSON" -framework "SDWebImage" -framework "SVProgressHUD" -framework "TPKeyboardAvoiding" -framework "UIColor_Hex_Swift"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
