@@ -23,7 +23,7 @@ class ProductDetailsViewController: UIViewController, MFMailComposeViewControlle
     @IBOutlet weak var btnMail: UIButton!
     @IBOutlet weak var btnShare: UIButton!
     
-    let imagesURL = "http://207.154.254.209/scapi/uploads/"
+    let imagesURL = "http://localhost:8080/uploads/"
 
     override func viewDidLoad() {
         super.viewDidLoad()
